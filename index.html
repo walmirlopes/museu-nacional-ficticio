@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Museu Nacional</title>
-    <!--Styles-->
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <!--Normalize-->
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <!--Styles-->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <!--Html Shiv-->
 
     <!--[if lt IE 9]>
@@ -17,11 +17,13 @@
 </head>
 
 <body>
+
     <!--Início Container-->
     <div id="container">
 
         <!--Inicio header-->
         <header>
+
             <div id="logo">
 
                 <h1>
@@ -32,6 +34,7 @@
 
             <!--Inicio Nav-->
             <nav>
+
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Exposições</a></li>
@@ -41,11 +44,84 @@
                     <li><a href="#">Fotos</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
+
             </nav>
             <!--/Fim Nav-->
 
         </header>
         <!--/Fim header-->
+
+        <!--Inicio Principal-->
+        <div id="principal">
+
+            <!--Inicio conteudo-->
+            <div id="conteudo">
+
+                <section id="capa">
+                    <img src="assets/images/museu.png">
+                </section>
+
+            </div>
+            <!--/Fim conteudo-->
+
+            <!--Inicio aside-->
+            <aside>
+
+                <section id="depoimento">
+                    <img src="assets/images/depoimento.png">
+                </section>
+
+                <!--Inicio Visita-->
+                <section id="visita">
+
+                    <h4>Faça uma visita</h4>
+                    <form>
+
+                        <fieldset>
+
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="verificar disponibilidade">
+
+                    </form>
+
+                </section>
+                <!--Fim Visita-->
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+
+                    <a href="#">
+                        <img src="assets/images/imagem1.jpg" height="93" width="93" alt="/Descrição.">
+                    </a>
+
+                    <a href="#">
+                        <img src="assets/images/imagem2.jpg" height="93" width="93" alt="/Descrição.">
+                    </a>
+
+                    <a href="#">
+                        <img src="assets/images/imagem3.jpg" height="93" width="93" alt="/Descrição.">
+                    </a>
+
+                    <a href="#">
+                        <img src="assets/images/imagem4.jpg" height="93" width="93" alt="/Descrição.">
+                    </a>
+
+                </section>
+
+            </aside>
+            <!--/Fim aside-->
+
+        </div>
+        <!--/Fim Principal-->
 
     </div>
     <!--/Fim Container-->
